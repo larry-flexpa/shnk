@@ -1,5 +1,14 @@
 import { ArrowUpRightIcon } from '@heroicons/react/24/outline';
 
+const buttonClass = `
+bg-green-500 hover:bg-primary
+inline-flex cursor-pointer justify-center items-center
+gap-[2px] rounded-md border border-transparent
+px-4 py-2 text-base font-medium text-white shadow-sm
+focus:outline-none focus:ring-2 focus:ring-offset-2
+disabled:cursor-not-allowed disabled:bg-gray-400 disabled:text-white
+w-full
+`;
 
 export default function Home() {
   return (
@@ -25,18 +34,14 @@ export default function Home() {
               </div>
             </a>
         </div>
-        <div>
-        <a 
-          href="x-safari-https://www.flexpa.com" 
-          target="_blank"
-        >Open in Safari</a>
-        </div>
-        <div>
-        <a 
-          href="googlechromes://flexpa.com" 
-          target="_blank"
-        >Open in Chrome</a>
-        </div>
+        <div className="flex gap-4 mt-4">
+              <a href="x-safari-https://www.flexpa.com" target="_blank" className={buttonClass}>
+                Open in Safari
+              </a>
+              <a href="googlechromes://flexpa.com" target="_blank" className={buttonClass} rel="noreferrer">
+                Open in Chrome
+              </a>
+            </div>
       </section>
     </>
   );
