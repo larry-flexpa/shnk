@@ -27,9 +27,9 @@ export default function Home() {
         </div>
         <div>
         <a 
-          href="x-safari-https://www.flexpa.com" 
+          href="intent:https://www.flexpa.com#Intent;end" 
           target="_blank"
-        >Open in Safari</a>
+        >Open in default</a>
         </div>
       </section>
     </>
