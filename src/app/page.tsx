@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <>
       <header className="text-3xl font-semibold">
-      <h1 className="flex-1">Continue in Safari or Chrome</h1>
+      <h1 className="flex-1">Talking about work</h1>
       </header>
       <section className="inline-flex flex-1 flex-col gap-4">
         <p>
@@ -30,6 +30,12 @@ export default function Home() {
           href="x-safari-https://www.flexpa.com" 
           target="_blank"
         >Open in Safari</a>
+        </div>
+        <div>
+        <a 
+          href="googlechromes://flexpa.com" 
+          target="_blank"
+        >Open in Chrome</a>
         </div>
       </section>
     </>
