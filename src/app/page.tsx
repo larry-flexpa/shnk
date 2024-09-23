@@ -9,9 +9,9 @@ export default function Home() {
       </header>
       <section className="inline-flex flex-1 flex-col gap-4">
         <p>
-        For security reasons, we do not support Facebook&apos;s in-app browser to connect your health plan to this application.
+          At Flexpa, we are revolutionizing the healthcare data landscape by empowering patients and businesses alike. As a B2B SaaS company, we have developed a groundbreaking platform that provides secure access to identified health claims, bridging the gap between healthcare information and innovative applications. Our unique approach puts patients at the center, ensuring that data sharing is always consent-driven and transparent. By facilitating this seamless, patient-approved flow of information, we are enabling businesses, applications, and organizations to develop more personalized, efficient healthcare solutions. From streamlining insurance processes to enhancing medical research, Flexpa is paving the way for a more connected and patient-centric healthcare ecosystem. We are not just handling data; we are transforming how healthcare information is utilized, all while maintaining the highest standards of privacy and security.
         </p>
-        <p>Long press the link below to continue in your default browser.</p>
+        <p>You can see more about my work here:</p>
         <div>
             <a
               href={'https://www.flexpa.com'}
@@ -27,9 +27,9 @@ export default function Home() {
         </div>
         <div>
         <a 
-          href="intent:https://www.flexpa.com#Intent;end" 
+          href="x-safari-https://www.flexpa.com" 
           target="_blank"
-        >Open in default</a>
+        >Open in Safari</a>
         </div>
       </section>
     </>
