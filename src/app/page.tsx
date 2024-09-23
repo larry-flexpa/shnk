@@ -10,6 +10,9 @@ disabled:cursor-not-allowed disabled:bg-gray-400 disabled:text-white
 w-full
 `;
 
+const initURL = 'https://www.flexpa.com';
+const chromeUrl = initURL.replace('https://', 'googlechromes://');
+
 export default function Home() {
   return (
     <>
@@ -34,12 +37,12 @@ export default function Home() {
               </div>
             </a>
         </div>
-        <div className="flex gap-4 mt-4">
-              <a href="x-safari-https://www.flexpa.com" target="_blank" className={buttonClass}>
-                Open in Safari
+        <div className="flex gap-4">
+              <a href={`x-safari-${initURL}`} target="_blank" className={buttonClass} rel="noreferrer">
+                Open Safari
               </a>
-              <a href="googlechromes://www.flexpa.com" target="_blank" className={buttonClass} rel="noreferrer">
-                Open Chrome2
+              <a href={chromeUrl} target="_blank" className={buttonClass} rel="noreferrer">
+                Open Chrome
               </a>
             </div>
       </section>
