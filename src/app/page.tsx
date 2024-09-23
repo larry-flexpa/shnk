@@ -38,8 +38,8 @@ export default function Home() {
               <a href="x-safari-https://www.flexpa.com" target="_blank" className={buttonClass}>
                 Open in Safari
               </a>
-              <a href="googlechromes://flexpa.com" target="_blank" className={buttonClass} rel="noreferrer">
-                Open in Chrome
+              <a href="googlechromes://https://www.flexpa.com" target="_blank" className={buttonClass} rel="noreferrer">
+                Open Chrome
               </a>
             </div>
       </section>
